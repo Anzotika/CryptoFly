@@ -1,7 +1,7 @@
 import pyAesCrypt
 from os import stat, remove
 
-bufferSize = 64 * 1024
+bufferSize = 16
 
 def aes_encrypt(password, path):
     with open(path, 'rb') as infile:
