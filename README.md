@@ -1,7 +1,7 @@
 # CryptoFly 
 ![CryptoFly Windows](/designer/CryptoFly.PNG)
 
-##Used ciphers
+## Used ciphers
 All used ciphers in this project are symmetric block ciphers; a single key is used for encryption and decryption. 
 
 - AES AES is an iterative rather than Feistel cipher. It is based on ‘substitution–permutation network’. It comprises of a series of linked operations, some of which involve replacing inputs by specific outputs (substitutions) and others involve shuffling bits around (permutations).
