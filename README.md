@@ -14,7 +14,7 @@ Depending on whether you want to encrypt or decrypt your file, you have to follo
 
 After finishing everything you press the button and to be sure that your file is encrypted/decrypted a new window pops up to tell you that everything is finished.
 
-![Confirmation Window](/designer/icon/confirmation.PNG)
+![Confirmation Window](/designer/icon/confirmation.png)
 
 The file is always saved in the location that you already have the base file (file that is yet to be encrypted nor decrypted).
 
