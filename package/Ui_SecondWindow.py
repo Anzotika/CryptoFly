@@ -23,11 +23,13 @@ class Ui_SecondWindow(object):
         self.icon = QLabel(self.centralwidget)
         self.icon.setObjectName(u"icon")
         self.icon.setGeometry(QRect(0, 10, 61, 41))
-        self.icon.setStyleSheet(u"image: url(:/newPrefix/logo.png);")
+        self.icon.setStyleSheet(
+            u"image: url(designer/icon/logo.png);")
         self.checkmark = QLabel(self.centralwidget)
         self.checkmark.setObjectName(u"checkmark")
         self.checkmark.setGeometry(QRect(360, 50, 51, 31))
-        self.checkmark.setStyleSheet(u"image: url(:/newPrefix/check-mark.png);")
+        self.checkmark.setStyleSheet(
+            u"image: url(designer/icon/confirmation.png);")
         SecondWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QStatusBar(SecondWindow)
         self.statusbar.setObjectName(u"statusbar")
